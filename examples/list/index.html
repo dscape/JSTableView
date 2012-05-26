@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>index</title>
+    
+    <link rel="stylesheet" href="themes/css/apple.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="libraries/JSTableView.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    
+    <script src="libraries/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="libraries/jqtouch.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="libraries/JSTableView.core.js" type="text/javascript" charset="utf-8"></script>
+    <script src="libraries/Object+merge.js" type="text/javascript" charset="utf-8"></script>
+    
+    <script type="text/javascript" charset="utf-8">
+      $(function(){
+        $.jQTouch(this);
+      });
+    </script>
+    
+  </head>       
+  <body id="index" onload="">
+    <div id="jqt">
+      
+      <div id="home">
+      
+        <nav class="toolbar">
+          <h1 class="glow">Scrolling</h1>
+        </nav>
+        
+        <div id="my-crazy-list">
+        </div>                  
+        
+        <script type="text/javascript" charset="utf-8">
+         
+          $(function(){
+            var data = [], i = 5000;
+
+            while(i--)
+            {
+              data.push({
+                id: '',
+                className: '',
+                text: 'List item #' + i
+              });
+            };
+
+            var jsTV = JSTableView.tableViewWithOptions({
+              selector: '#my-crazy-list',
+              data: data
+            });
+                
+            $('#home .toolbar').click(function(){ 
+              jsTV.showList();
+            });
+          });
+          
+        </script>
+        
+      </div>
+      
+    </div>
+  </body>
+</html>

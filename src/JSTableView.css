@@ -1,0 +1,43 @@
+
+html, body {
+  width: 320px;
+  height: 480px;
+}
+
+.jsTableView {
+  position: absolute;
+  overflow: hidden;
+  min-height: 50px;
+  width: 100%;
+  
+  background-color: white;
+}
+
+.jsTableView > div {
+  position: absolute;
+  height: 150%;
+  width: 100%;
+  top: -25%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.jsTableView ul > li {
+  position: absolute;
+  
+  width: 100%;
+  
+  margin: 0px 0px;
+  padding: 10px 3% 10px 3%;
+  
+  border-top: 1px solid #ccc;
+}
+
+.jsTableView ul > li:first-child
+{
+  border-top: 1px solid #ccc;
+}
