@@ -35,7 +35,7 @@ As for a quickstart, it really is as simple as including the source files and st
 
 ## Examples
 
-Check out the source in examples/list, (or visit a working copy from your iDevice or Android)[http:mattnunes.com/lab/list]. Yes, there really are 5000 individual pieces of data in the list - check the source! 
+Check out the source in examples/list, [or visit a working copy from your iDevice or Android](http:mattnunes.com/lab/list). Yes, there really are 5000 individual pieces of data in the list - check the source! 
 
 ## Contributors
 [Matt Nunes](github.com/mattnunes)
