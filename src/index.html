@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>index</title>
+    <link rel="stylesheet" href="JSTableView.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    
+    <script src="JSTableView.utilities.js" type="text/javascript" charset="utf-8"></script>
+    <script src="JSTableView.core.js" type="text/javascript" charset="utf-8"></script>
+    
+  </head>
+  <body id="index" onload="">
+    <div id="list">
+    </div>
+    
+    <script type="text/javascript" charset="utf-8">
+      var data = [], i = 5000;
+      
+      while(i--)
+      {
+        data.push({
+          id: '',
+          className: '',
+          text: 'List item #' + i
+        });
+      };
+      
+      var jsTV = JSTableView.tableViewWithOptions({
+        selector: '#list',
+        data: data
+      });
+      
+    </script>
+  </body>
+</html>
