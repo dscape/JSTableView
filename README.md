@@ -38,11 +38,12 @@ As for a quickstart, it really is as simple as including the source files and st
 Check out the source in examples/list, [or visit a working copy from your iDevice or Android](http:mattnunes.com/lab/list). Yes, there really are 5000 individual pieces of data in the list - check the source! 
 
 ## Contributors
-[Matt Nunes](github.com/mattnunes)
 
-[Dan Pinter](github.com/DataZombies)
+[Matt Nunes](http://github.com/mattnunes)
 
-[Jonathan Stark](github.com/jonathanstark)
+[Dan Pinter](http://github.com/DataZombies)
+
+[Jonathan Stark](http://github.com/jonathanstark)
 
 ##License
 __The MIT License (MIT)__
